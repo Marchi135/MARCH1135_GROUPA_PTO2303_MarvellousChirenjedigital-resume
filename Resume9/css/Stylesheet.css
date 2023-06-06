@@ -16,8 +16,14 @@
     background-image: url("/Resume9/Images/clark-van-der-beken-BSjlgIx4gBQ-unsplash\ -\ Copy.jpg");
     text-align: center;
      color: #D6D3DB;
-    
+ }
+
+
+.nav-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
+
 h1{
   font-size: 3vw;
   color: #D6D3DB;
@@ -32,6 +38,7 @@ h4 {
 body {
     background-color:#D6D3DB;
     color: #4A4453;
+    font-size: 100%;
     margin: 1rem 3rem;
     border: #BF5846;
     border-style: solid;
@@ -45,12 +52,21 @@ h3 menu {
   background-color: #F2CCC5;
 }
 a:hover {
-  background-color: rgb(75, 75, 218);
+  background-color: #F2CCC5;
   color: white;
 }
 .nav-grid {
   display: column;
-  grid-template-columns: 1fr ;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  background-color: #4A4453;
+  padding: 3rem;
+  border-radius: 6px;
+  color:#fff
+  
+}
+button {
+  border-radius: 10px;
+
 }
 
 footer {
@@ -61,23 +77,26 @@ footer {
 /*----------Mobile---------------------*/
 
 @media screen and (max-width: 425px) {
-
-  .nav-grid {
-    display: column;
-    grid-template-columns: 1fr;
+.nav-grid {
+        display: grid;
+        grid-template-columns: 1fr;
   }
-    h1{
+
+ h1{
      font-size: 1.5em;
     }
-    h2{
+
+ h2{
    font-size: 1.35em
-    }
+  }
     h3{
    font-size: 1em;
     }
+
     body {
       margin: 1rem 1.2rem;
       padding: 3% ;
+      font-size: 100%;
     }
     .header {  background-image: url("/Resume9/Images/smallbg.jpg");
     }
@@ -97,16 +116,12 @@ footer {
      h3{
     font-size: 1.25em;
      }
-     
-     #navbar-grid {
-      display: grid;
-      grid-template-columns: 1fr ;
      }
      body {
       margin: 1rem 1.2rem;
       padding: 3% ;
+      font-size: 100%;
     }
     .header {  background-image: url("/Resume9/Images/medium\ \(2\).jpg");
     }
   }
-}
