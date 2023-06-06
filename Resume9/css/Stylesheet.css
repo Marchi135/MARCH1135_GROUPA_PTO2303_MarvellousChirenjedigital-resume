@@ -13,7 +13,7 @@
     border-style: solid;
 }
 .header {
-    background-image: url("/Resume9/Images/clark-van-der-beken-BSjlgIx4gBQ-unsplash.jpg");
+    background-image: url("/Resume9/Images/clark-van-der-beken-BSjlgIx4gBQ-unsplash\ -\ Copy.jpg");
     text-align: center;
      color: #D6D3DB;
     
@@ -37,6 +37,17 @@ body {
     border-style: solid;
     border-radius: 10px;
     padding: 1rem;
+}
+span {
+  background-color: #F2CCC5;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-right: 32rem;
+}
+h3 menu {
+  color: #2F4858;
+  font-size: larger;
+  background-color: #F2CCC5;
 }
 a:hover {
   background-color: rgb(75, 75, 218);
